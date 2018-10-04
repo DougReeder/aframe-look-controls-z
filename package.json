@@ -1,0 +1,28 @@
+{
+  "name": "aframe-look-controls-z",
+  "version": "1.0.0",
+  "description": "Drop-in replacement for A-Frame core look-controls. In magic-window mode, the virtual horizon stays parallel to the real horizon.",
+  "main": "look-controls-z.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DougReeder/aframe-look-controls-z.git"
+  },
+  "keywords": [
+    "aframe",
+    "aframe-component",
+    "controls",
+    "look-controls",
+    "webvr",
+    "vr",
+    "fly"
+  ],
+  "author": "Doug Reeder <reeder.29@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DougReeder/aframe-look-controls-z/issues"
+  },
+  "homepage": "https://github.com/DougReeder/aframe-look-controls-z#readme"
+}

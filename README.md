@@ -7,20 +7,23 @@ Drop-in replacement for core look-controls, except in magic-window mode, the vir
 
 Useful when flying, as in [Elfland Glider](https://elfland-glider.surge.sh/)
 
+[live example scene](https://dougreeder.github.io/aframe-look-controls-z/example.html)
+
+
 You may also want to [lock the screen orientation](https://developer.mozilla.org/en-US/docs/Web/API/ScreenOrientation),
-which usually requires going to [fullscreen mode](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API).
+which usually requires first going to [fullscreen mode](https://developer.mozilla.org/en-US/docs/Web/API/Fullscreen_API).
 
 Basic Usage
 ---
 ```html
 <script src="https://unpkg.com/aframe-look-controls-z@^1.0.0/look-controls-z.js"></script>
 
-<a-entity camera look-controls-z></a-entity>
+<a-entity position="0 1.6 0" camera look-controls-z></a-entity>
 ```
 
-Orientation Lock and Fullscreen
+Screen Orientation Lock and Fullscreen Mode
 ---
-Call this on a user gesture, such as a mouse click:
+Call goFullscreenLandscape() on a user gesture, such as a mouse click:
 ```javascript
 function goFullscreenLandscape() {
     if (!isMagicWindow()) {return;}
