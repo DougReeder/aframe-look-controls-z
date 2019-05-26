@@ -1,6 +1,6 @@
 {
   "name": "aframe-look-controls-z",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Drop-in replacement for A-Frame core look-controls. In magic-window mode, the virtual horizon stays parallel to the real horizon.",
   "main": "look-controls-z.js",
   "scripts": {

@@ -16,7 +16,7 @@ which usually requires first going to [fullscreen mode](https://developer.mozill
 Basic Usage
 ---
 ```html
-<script src="https://unpkg.com/aframe-look-controls-z@^1.0.0/look-controls-z.js"></script>
+<script src="https://unpkg.com/aframe-look-controls-z@^2.0.0/look-controls-z.js"></script>
 
 <a-entity position="0 1.6 0" camera look-controls-z></a-entity>
 ```
